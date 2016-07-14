@@ -22,13 +22,12 @@ openwrt.bin: it come from openwrt official website.
     
     //If you have many ethernet, add "-s yourip" param to indicate the ip assigned by PHICOMM router. Recving "BREED:ABORTED" implies lucky if you use "ncat -v -4u -l 37540" to listen the echo. If you are using windows, I packed the ncat.exe, you have to change run.sh to windows bat.
 
-5. reboot your device
+5. reboot your device(Cannot get ip addr after reboot, try setting a static ip.)
 
     reboot
 
 
 6. Access http://192.168.1.1 to upload you openwrt.bin and flash your new firmware
 
-Issues:
 
-If you cannot get ip addr after reboot, try setting a static ip.
+
